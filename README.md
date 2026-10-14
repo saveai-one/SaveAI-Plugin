@@ -1,14 +1,16 @@
 # SaveAI
 
+**English** · [简体中文](README.zh.md)
+
 Save AI conversations as **PDF, Word, Markdown, TXT, JSON or long screenshots**, or sync them to Notion. SaveAI is a browser extension for 20 AI sites, including ChatGPT, Claude, Gemini, DeepSeek, Copilot, Grok, Kimi, Doubao and Qwen.
 
 [Website](https://saveai.one) · [User guide](https://www.saveai.one/docs/) · [Feedback](https://www.saveai.one/feedback/)
 
 **Install:** [Chrome](https://chromewebstore.google.com/detail/lkhaghcekfkickbdachbheceknpmofdk) · [Edge](https://microsoftedge.microsoft.com/addons/detail/ohgnnmliihahfpdeggnojlednaklbbce) · [Firefox](https://addons.mozilla.org/firefox/addon/save-ai-chats-to-pdf-word/)
 
-<img src="docs/readme-images/saveai-on-chatgpt-en.jpg" alt="SaveAI open on a ChatGPT conversation with equations and a table" width="820">
+<img src="img/saveai-on-chatgpt-en.jpg" alt="SaveAI open on a ChatGPT conversation with equations and a table" width="820">
 
-## Why I built SaveAI
+## 1. Why I built SaveAI
 
 Hi, I'm **Jack**, the creator of SaveAI and a software engineer with a bit of a perfectionist streak.
 
@@ -20,7 +22,7 @@ Since I already build software for a living, I decided to make my own tool. I co
 
 After launch, SaveAI received far more attention, support and thoughtful feedback than I had expected. I have read every review and email carefully. Your reports and examples helped me notice details I had missed and encouraged me to keep improving it. **Thank you for helping SaveAI become more useful to others.**
 
-## Features
+## 2. Features
 
 - Export conversations from 20 supported AI sites through one extension.
 - Choose from six file formats, or sync selected content to an authorized Notion page or database.
@@ -32,7 +34,7 @@ After launch, SaveAI received far more attention, support and thoughtful feedbac
 
 SaveAI currently provides its export features for free. Regular file exports do not require an account.
 
-## Choose your format
+## 3. Choose your format
 
 | Format | Best for | Output |
 | --- | --- | --- |
@@ -43,9 +45,9 @@ SaveAI currently provides its export features for free. Regular file exports do 
 | JSON | Processing conversations with scripts | Structured conversation data |
 | Long screenshot | Sharing a conversation visually | A long image of the conversation |
 
-<img src="docs/readme-images/popup-en.jpg" alt="English SaveAI popup with six export formats, message selection and Notion sync" width="340">
+<img src="img/popup-en.jpg" alt="English SaveAI popup with six export formats, message selection and Notion sync" width="340">
 
-## Get started
+## 4. Get started
 
 1. Install SaveAI for your browser and pin it to the toolbar.
 2. Open a conversation on a supported AI site.
@@ -56,47 +58,47 @@ For long chats, check that earlier messages have loaded. Some AI sites display o
 
 Images and attachments can be included when the original site allows access and the selected format supports them.
 
-## Screenshots
+## 5. Screenshots
 
 <details>
-<summary>Message selection and export preview</summary>
+<summary>5.1 Message selection and export preview</summary>
 
 Select messages on the left and review the conversation on the right.
 
-<img src="docs/readme-images/preview-en.jpg" alt="English export preview with message selection, search, a table and code" width="900">
+<img src="img/preview-en.jpg" alt="English export preview with message selection, search, a table and code" width="900">
 
 </details>
 
 <details>
-<summary>Code and table export examples</summary>
+<summary>5.2 Code and table export examples</summary>
 
 Examples from the SaveAI website showing indented code and a table with mathematical notation.
 
-<img src="docs/readme-images/code-and-tables-en.jpg" alt="Exported Python code and a table of quadratic equations with English labels" width="900">
+<img src="img/code-and-tables-en.jpg" alt="Exported Python code and a table of quadratic equations with English labels" width="900">
 
 </details>
 
 <details>
-<summary>PDF settings</summary>
+<summary>5.3 PDF settings</summary>
 
 Choose a cloud or local PDF engine and adjust the document layout.
 
-<img src="docs/readme-images/pdf-settings-en.jpg" alt="English PDF settings including rendering engine, paper size, margins, page numbers and outline" width="850">
+<img src="img/pdf-settings-en.jpg" alt="English PDF settings including rendering engine, paper size, margins, page numbers and outline" width="850">
 
 </details>
 
 <details>
-<summary>Public share link export tool</summary>
+<summary>5.4 Public share link export tool</summary>
 
 The [website tool](https://www.saveai.one/tools/share-to-pdf/) can export supported public AI conversation links without installing the extension. For conversations that require sign-in to read, use the extension in your own browser session.
 
-<img src="docs/readme-images/share-link-tool-en.jpg" alt="English SaveAI website tool with a public share link input and export format choices" width="900">
+<img src="img/share-link-tool-en.jpg" alt="English SaveAI website tool with a public share link input and export format choices" width="900">
 
 </details>
 
 Screenshots are from the SaveAI website and extension user guide. Available controls may vary with the installed version.
 
-## Privacy and data handling
+## 6. Privacy and data handling
 
 - **Local file generation:** Word, Markdown, TXT, JSON and long screenshots are generated in your browser.
 - **PDF rendering:** PDF uses the cloud engine by default, which uploads conversation content to the SaveAI server for rendering. Choose the local engine to generate the PDF on your device through the browser print dialog.
@@ -106,9 +108,9 @@ Screenshots are from the SaveAI website and extension user guide. Available cont
 
 See the [privacy policy](https://www.saveai.one/privacy/) for details.
 
-## Build from source
+## 7. Build from source
 
-SaveAI uses React, TypeScript and Manifest V3. The documented build environment is **Node.js 22.x** and **npm 10.x**.
+This repository contains project documentation and screenshots. The following development instructions apply to the full extension source project, which uses React, TypeScript and Manifest V3. The documented build environment is **Node.js 22.x** and **npm 10.x**.
 
 ```bash
 npm ci
@@ -117,14 +119,14 @@ npm run build:firefox    # Firefox: dist-firefox/
 node scripts/package.mjs # Chrome package: releases/save-ai-<version>.zip
 ```
 
-See [BUILD.md](BUILD.md) for the build pipeline and Firefox source archive instructions.
+See `BUILD.md` in the extension source project for the build pipeline and Firefox source archive instructions.
 
 To load a local build:
 
 - **Chrome or Edge:** Open `chrome://extensions` or `edge://extensions`, enable Developer mode, choose **Load unpacked** and select `dist/`.
 - **Firefox:** Open `about:debugging`, choose **This Firefox**, then **Load Temporary Add-on** and select `dist-firefox/manifest.json`.
 
-## Project structure
+## 8. Project structure
 
 ```text
 src/
@@ -140,7 +142,7 @@ scripts/            # Build, packaging and regression checks
 vendor/upstream/    # Static build inputs: manifest, locales and icons
 ```
 
-## Development checks
+## 9. Development checks
 
 ```bash
 npx tsc -b
@@ -149,6 +151,6 @@ node scripts/test-package-regressions.mjs
 node scripts/test-usage-optout.mjs
 ```
 
-## Feedback
+## 10. Feedback
 
 If you find missing messages, formatting problems or a feature you would like to see, please send feedback through the [website](https://www.saveai.one/feedback/). I would also love to hear what you saved and how you plan to use it. Those details help me make SaveAI more useful in everyday work.
