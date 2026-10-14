@@ -4,7 +4,7 @@
 
 Save AI conversations as **PDF, Word, Markdown, TXT, JSON or long screenshots**, or sync them to Notion. SaveAI is a browser extension for 20 AI sites, including ChatGPT, Claude, Gemini, DeepSeek, Copilot, Grok, Kimi, Doubao and Qwen.
 
-[Website](https://saveai.one) · [User guide](https://www.saveai.one/docs/) · [Feedback](https://www.saveai.one/feedback/)
+[Website](https://saveai.one) · [User guide](https://www.saveai.one/docs/) · [Feedback](https://www.saveai.one/feedback/) · Contact us: [saveaiadmin@gmail.com](mailto:saveaiadmin@gmail.com)
 
 **Install:** [Chrome](https://chromewebstore.google.com/detail/lkhaghcekfkickbdachbheceknpmofdk) · [Edge](https://microsoftedge.microsoft.com/addons/detail/ohgnnmliihahfpdeggnojlednaklbbce) · [Firefox](https://addons.mozilla.org/firefox/addon/save-ai-chats-to-pdf-word/)
 

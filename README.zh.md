@@ -4,7 +4,7 @@
 
 将 AI 对话保存为 **PDF、Word、Markdown、TXT、JSON 或长截图**，也可以同步到 Notion。SaveAI 是一款浏览器扩展，支持 ChatGPT、Claude、Gemini、DeepSeek、Copilot、Grok、Kimi、豆包、通义千问等 20 个 AI 站点。
 
-[官网](https://saveai.one) · [使用指南](https://www.saveai.one/zh/docs/) · [意见反馈](https://www.saveai.one/zh/feedback/)
+[官网](https://saveai.one) · [使用指南](https://www.saveai.one/zh/docs/) · [意见反馈](https://www.saveai.one/zh/feedback/) · 联系我们：[saveaiadmin@gmail.com](mailto:saveaiadmin@gmail.com)
 
 **安装扩展：** [Chrome](https://chromewebstore.google.com/detail/lkhaghcekfkickbdachbheceknpmofdk) · [Edge](https://microsoftedge.microsoft.com/addons/detail/ohgnnmliihahfpdeggnojlednaklbbce) · [Firefox](https://addons.mozilla.org/firefox/addon/save-ai-chats-to-pdf-word/)
 
